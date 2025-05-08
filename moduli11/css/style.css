@@ -1,3 +1,7 @@
+body{
+    background-color: darkgreen;
+}
+
 h2 {
     color: crimson;
     font-style: italic;
@@ -17,8 +21,12 @@ h2{
 
 div{
     height: 300px;
-    border-color: aqua;
+    border-color: 15px solid aqua;
     width: 300px;
     padding: 500px;
     margin: 500px;
+}
+
+p{
+    color: rgba(189, 78, 56, 0.5)
 }
