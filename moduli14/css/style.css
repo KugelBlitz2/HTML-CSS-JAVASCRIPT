@@ -1,0 +1,46 @@
+article p{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+}
+
+article > p {
+    background-color: black;
+}
+
+article + p {
+    background-color: orange;
+    padding: 20px;
+}
+
+article ~ p {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+h1{
+    color: red;
+}
+
+h1:first-of-type {
+    color: aqua;
+}
+
+input:in-range {
+    border: 1px dotted green;
+}
+
+input:required {
+    background-color: chartreuse;
+}
+
+input:focus{
+    cursor: cell;
+    background-color: navy;
+}
+
+p::first-letter{
+    color: rgb(26, 255, 0);
+    font-size: 20px;
+}
+
