@@ -1,0 +1,102 @@
+/* .container{
+    display: flex;
+    background-color: blue;
+}
+
+.container div {
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    color: #000;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container div:nth-child(1) {
+    order: 2;
+}
+
+.container div:nth-child(2) {
+    order: 0;
+}
+
+.container div:nth-child(3) {
+    order: 1;
+} */
+
+/* .container{
+    display: flex;
+    background-color: blue;
+    flex-direction: row-reverse;
+}
+
+.container div {
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    color: #000;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* .container3{
+    display: flex;
+    background-color: rgb(9, 255, 0);
+    flex-direction: row;
+}
+
+.container3 div {
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    color: #000;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container3 div:nth-child(1) {
+    flex-grow: 2;
+} */
+
+/* .container4{
+    display: flex;
+    background-color: rgb(9, 255, 0);
+    justify-content: space-evenly;
+}
+
+.container4 div {
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    color: #000;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.container5{
+    display: flex;
+    background-color: rgb(9, 255, 0);
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.container5 div {
+    background-color: white;
+    margin: 16px;
+    padding: 20px;
+    color: #000;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+}
+
+.container5 div:nth-child(1) {
+    height: 20px;
+}
+.container5 div:nth-child(2) {
+    height: 100px;
+}
+.container5 div:nth-child(3) {
+    height: 50px;
+}
+
