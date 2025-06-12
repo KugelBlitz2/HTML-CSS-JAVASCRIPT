@@ -41,3 +41,6 @@ p[class~="ds"] {
     background-color: red;
 }
 
+p[title^="blue"] {
+    border: 1px solid rgb(207, 113, 144);
+}
